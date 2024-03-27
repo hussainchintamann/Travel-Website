@@ -58,10 +58,19 @@ body{
    margin-left: 480px;
    position: relative;
    top: 11px;
+   cursor: pointer;
 }
 
 .top-header .spans i {
    font-size: 20px;
+}
+
+.top-header .spans a {
+   text-decoration: none;
+   color: black;
+}
+.top-header .spans a:hover{
+   color: rgb(81, 81, 81);
 }
 
 
@@ -169,6 +178,9 @@ body{
 
    .top-header {
       height: 80px;
+      width: 101%;
+      left: 14px;
+      
    }
    .top-header .spans {
       display: none;
@@ -197,8 +209,8 @@ body{
  {
    .top-header {
       height: 75px;
-      width: 98%;
-      left: 12px;
+      width: 99%;
+      left: 13px;
    }
    .top-header .logo {
     
@@ -304,7 +316,7 @@ body{
 
 
 .card img {
-   height: 290px;
+   height: 180px;
   
 }
 .card1{
@@ -420,6 +432,163 @@ body{
    bottom: 16px;
    right: 15px;
 }
+
+
+@media only screen and (max-width : 1024px)
+ {
+   .heading h1 {
+      margin-left: 7%;
+   } 
+
+   .low-budget h3{
+      margin-left: 7%;
+      
+   }
+   .low-budget .line {
+      margin-left: 7.2%;
+      width: 88.2%;
+   }
+   .card1 ,.card2, .card3{
+      width: 111%;
+   }
+   
+ }
+
+
+ @media only screen and (max-width : 786px)
+ {
+   .heading h1 {
+      margin-left: 8.5%;
+   } 
+
+   .low-budget h3{
+      margin-left: 9%;
+      
+   }
+   .low-budget .line {
+      margin-left: 9.4%;
+      width: 88.2%;
+   }
+   .card1 ,.card2, .card3{
+      width: 111%;
+   }
+   .card img {
+      height: 190px;
+     
+   }
+   .card1 ,.card2, .card3{
+      width: 114%;
+   }
+   
+
+   
+   
+
+   .madina img {
+      width: 60px;
+      height: 60px;
+   }
+
+   .makkah img {
+      width: 60px;
+      height: 60px;
+   }
+
+   .no-of-days {
+     
+      font-size: 11px;
+      
+     
+   }
+     .hotel {
+      font-size: 8px;
+     
+   
+   }
+   
+   .madina .stars
+   {
+     max-height: 18px;
+     
+      
+   }
+
+   .makkah .stars
+   {
+     max-height: 18px;
+   
+      
+   }
+
+   .footer .view-detail {
+     
+      font-weight: 460;
+   }
+   .footer-rate .pkr{
+      font-size: 17px;
+      
+   }
+   .footer-rate .pkr span {
+      font-size: 11px;
+   }
+ }
+
+
+
+
+ @media only screen and (max-width : 425px)
+ {
+   .heading h1 {
+      font-size: 20px;
+      margin-left: 10%;
+   } 
+
+   .low-budget h3{
+      font-size: 19px;
+      margin-left: 10%;
+      
+   }
+   .low-budget .line {
+      margin-left: 10%;
+      width: 84%;
+   }
+   
+   .center1 .card {
+      position: relative;
+      left: 30px;
+      
+   }
+
+   .center2 .card {
+      position: relative;
+      left: 30px;
+   }
+
+   .center3 .card {
+      position: relative;
+      left: 30px;
+      
+   }
+   
+   
+
+   .card1{
+     width: 109%;
+     margin-left: 30px;
+   }
+   .card2{
+      width: 109%;
+   }
+   .card3 {
+      width: 109%;
+      right: 46px;
+   }
+
+
+   
+   
+ }
+
 
 
 /* Card-End*/
